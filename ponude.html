@@ -14,10 +14,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+<body class="text-light" style="background-color: #242a33">
+  <nav class="navbar navbar-expand-lg bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="home.html">
         <span class = "text-primary fw-bold">Cyper</span>
         <span class = "text-secondary ">Web</span>
       </a>
@@ -27,13 +27,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item px-2" aria-current="page">
-            <a class="nav-link active" href="#">Ponude</a>
+            <a class="nav-link active text-light" href="ponude.html">Ponude</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link text-light" href="#">Blog</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link">Kontakt</a>
+            <a class="nav-link text-light" href="#">Kontakt</a>
           </li>
         </ul>
       </div>
@@ -44,7 +44,7 @@
     <h2 class="text-sm-start">
       Stabilno i sigurno hosting rešenje predstavlja potporu u osvajanju internet tržišta. Uz našu podršku na tom putu Vama preostaje da se fokusirate na ciljeve Vašeg biznisa.
     </h2>
-    <table class="table mt-4 text-center">
+    <table class="table mt-4 text-center text-light">
       <thead>
         <tr>
           <th></th>
@@ -120,7 +120,7 @@
         </div>
       </div>
     </div>
-    <footer class="container-fluid ms-auto mt-1">
+    <footer class="container-fluid ms-auto mt-5">
       <!-- kopiran template -->
       <section class="">
         <form action="">
@@ -158,30 +158,25 @@
       </section>
       <!-- Section: Form -->
       <!-- kraj template -->
-      <div class="row">
-        <div class="col-3">
+      <div class="row mt-1">
+        <div class="col-4">
           <dl>
-            <dt class="pb-3">Ponude</dt>
-            <dd>Web Hosting</dd>
-            <dd>Buisness Hosting</dd>
-            <dd>VPS Server</dd>
-            <dd>Dedicated Server</dd>
+            <dt class="pb-3"><a class="nav-link active" href="ponude.html">Ponude</a></dt>
+            <dd><a class="nav-link" href="web_hosting.html">Web Hosting</a></dd>
+            <dd><a class="nav-link" href="business_hosting.html">Business Hosting</a></dd>
+            <dd><a class="nav-link disabled" href="#">VPS Server</a></dd>
+            <dd><a class="nav-link disabled" href="#">Dedicated Server</a></dd>
           </dl>
         </div>
-        <div class="col-3">
+        <div class="col-4">
           <dl>
-            <dt class="pb-3">Blog</dt>
-            <dd>neki blog</dd>
+            <dt class="pb-3"><a class="nav-link disabled" href="#">Blog</a></dt>
+            <dd><a class="nav-link disabled" href="#">neki blog</a></dd>
           </dl>
         </div>
-        <div class="col-3">
+        <div class="col-4">
           <dl>
-            <dt class="pb-3">Kontakt</dt>
-          </dl>
-        </div>
-        <div class="col-3">
-          <dl>
-            <dt class="pb-3">Logo</dt>
+            <dt class="pb-3"><a class="nav-link disabled" href="#">Kontakt</a></dt>
           </dl>
         </div>
       </div>
